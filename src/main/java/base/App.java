@@ -26,7 +26,7 @@ public class App
         Scanner in = new Scanner(System.in);
         String stringInput;
         String stringOutput;
-        int stringLength = 0;
+        int stringLength;
 
         System.out.print("What is the input string? ");
         stringInput = in.nextLine();
