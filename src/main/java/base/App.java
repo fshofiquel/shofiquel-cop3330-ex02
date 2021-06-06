@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Fazlur Shofiquel
+ */
+
 /*  Exercise 2 - Counting the Number of Characters
     Create a program that prompts for an input string and displays output that shows the input string and the number of characters the string contains.
 
@@ -30,11 +35,8 @@ public class App
 
         System.out.print("What is the input string? ");
         stringInput = in.nextLine();
-
         stringLength = stringInput.length();
-
-        stringOutput = "" +stringInput+ " has " +stringLength+ " characters.";
-
+        stringOutput = "" + stringInput + " has " + stringLength + " characters.";
         System.out.println(stringOutput);
     }
 }
